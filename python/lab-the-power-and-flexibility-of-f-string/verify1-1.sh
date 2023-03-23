@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep -E print.f[\'\"].*\{.*\}*
+cat ~/.python_history | grep -E print.f[\'\"].*\{.*\}*
