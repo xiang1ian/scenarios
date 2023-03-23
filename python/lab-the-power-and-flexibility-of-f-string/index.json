@@ -1,0 +1,108 @@
+{
+  "type": "lab",
+  "title": "Hello World",
+  "description": "In this lab, you will learn about Python F-strings, a modern and concise way to format strings in Python.",
+  "difficulty": "Beginner",
+  "time": 20,
+  "details": {
+    "steps": [
+      {
+        "title": "Basic F-string Usage",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Please open the terminal and Python interpreter",
+            "file": "verify1-0.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Check if this step is completed",
+            "file": "verify1-1.sh",
+            "hint": "Please check your entries.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/f_string","python/print"
+        ]
+      },
+      {
+        "title": "F-string Expressions",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Check if this step is completed",
+            "file": "verify2.sh",
+            "hint": "Please check your entries.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/f_string","python/print"
+        ]
+      },
+      {
+        "title": "F-string Formatting",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "Check if this step is completed",
+            "file": "verify3.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/f_string","python/print"
+        ]
+      },
+      {
+        "title": "F-string Tips and Tricks",
+        "text": "step4.md",
+        "verify": [
+          {
+            "name": "Check if this step is completed",
+            "file": "verify4.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/f_string","python/print"
+        ]
+      },
+      {
+        "title": "Nested F-strings",
+        "text": "step5.md",
+        "verify": [
+          {
+            "name": "Check if this step is completed",
+            "file": "verify5.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/f_string","python/print"
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2204"
+  }
+}
